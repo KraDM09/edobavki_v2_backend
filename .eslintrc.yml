@@ -1,0 +1,28 @@
+env:
+  browser: true
+  commonjs: true
+  es2021: true
+extends: airbnb-base
+overrides: [ ]
+parserOptions:
+  ecmaVersion: latest
+ignorePatterns: [
+]
+rules: {
+  import/no-unresolved: [ 2, {
+    caseSensitive: false
+  }],
+  global-require: 0,
+  no-plusplus: [ "error", {
+    allowForLoopAfterthoughts: true
+  }],
+  no-param-reassign: [ 2, {
+    "props": false
+  }],
+  no-underscore-dangle: 0,
+  import/no-dynamic-require: 0,
+  camelcase: 0,
+  no-unused-vars: [2, { vars: 'all', args: 'none', ignoreRestSiblings: true }],
+  array-bracket-newline: [ 2, 'always' ],
+  array-bracket-spacing: [ 2, 'always' ],
+}

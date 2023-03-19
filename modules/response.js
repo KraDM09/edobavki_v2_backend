@@ -1,0 +1,11 @@
+module.exports = {
+  CODE_OK: 200,
+  CODE_BR: 400,
+  CODE_FB: 403,
+  CODE_SE: 500,
+
+  STATUS_OK: 'OK',
+  STATUS_BR: 'BAD_REQUEST',
+  STATUS_FB: 'FORBIDDEN',
+  STATUS_SE: 'SERVER_ERROR',
+};
