@@ -64,6 +64,6 @@ module.exports = {
   definitions: {
     Additive: require('./definitions/Additive')(true),
     Article: require('./definitions/Article')(true),
-    Seo: require('./definitions/seo'),
+    Seo: require('./definitions/Seo'),
   },
 };
