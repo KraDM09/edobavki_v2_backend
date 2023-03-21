@@ -2,6 +2,7 @@
   "name": "edobavki_v2",
   "version": "1.0.0",
   "description": "",
+  "main": "service.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
