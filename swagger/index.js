@@ -18,7 +18,6 @@ module.exports = {
       in: 'header',
     },
   },
-  host: `${config.api.path}:${config.api.port}`,
   basePath: '/',
   tags: [
     {
