@@ -1,5 +1,3 @@
-const config = require('@src/modules/config');
-
 module.exports = {
   swagger: '2.0',
   info: {

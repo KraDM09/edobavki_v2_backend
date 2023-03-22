@@ -6,26 +6,17 @@ module.exports = {
     description: 'Поиск по SEO',
     parameters: [
       {
-        name: 'additive',
+        name: 'seo',
         in: 'body',
-        description: 'Добавка, которую мы хотим найти',
+        description: 'Seo, которое мы хотим найти для url',
         schema: {
           required: [
-            'action',
-            'controller',
+            'url',
           ],
           properties: {
-            id: {
-              type: 'number',
-              example: 4,
-            },
-            action: {
+            url: {
               type: 'string',
-              example: 'index',
-            },
-            controller: {
-              type: 'string',
-              example: 'index',
+              example: 'index/index',
             },
           },
         },

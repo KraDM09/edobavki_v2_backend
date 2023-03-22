@@ -133,9 +133,3 @@ UPDATE edobavki.art_article SET
     updater_id = 1,
     update_time = NOW()
 WHERE id = ${id};
-
---get_seo://
-SELECT *
-FROM edobavki.sys_seo_page
-WHERE url = ${url}
-  AND (post_id = ${post_id} OR post_id IS NULL);

@@ -7,14 +7,12 @@ const router = express.Router();
 
 router.post('/seo/get_by_url', async (req, res, next) => {
   const {
-    id,
     url,
   } = req.body;
 
   const [
     seo,
   ] = await db.query('get_seo', {
-    post_id: id,
     url,
   });
 
